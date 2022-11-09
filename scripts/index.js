@@ -32,7 +32,7 @@ function fillDropdown(){
         let newOption = document.createElement("option");
         newOption.value = teams[i].code;
         newOption.textContent = teams[i].name;
-
+ 
         footballTeamsList.appendChild(newOption);
     }
 }
